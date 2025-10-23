@@ -36,11 +36,13 @@ if uploaded_file is not None:
         # Predict
         preds = model.predict(img_array)
         predicted_class = class_names[np.argmax(preds)]
-        confidence = np.max(preds) * 100
-
-        # Show results
-        st.success(f"Prediction: **{predicted_class}**")
-        st.info(f"Confidence: **{confidence:.2f}%**")
+        confidence = np.max(preds)
+        if confidence < 0.4:
+            st.warning("This image does not belong to any of the 10 classes.")
+        else:
+            predicted_class = class_names[np.argmax(preds)]
+            st.success(f"Prediction: {predicted_class}")
+            st.info(f"Confidence: {confidence*100:.2f}%")
 
     except Exception as e:
         st.error(f"Error processing the image: {e}")
