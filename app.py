@@ -14,7 +14,8 @@ class_names = ['airplane', 'automobile', 'bird', 'cat', 'deer',
 # Streamlit UI
 
 st.title("ShadowFox - CIFAR-10 Image Classifier")
-st.write("Upload an image and let the model predict its class!")
+st.write("Upload an image one of the CIFAR-10 classes and let the model predict its class!")
+st.write("The CIFAR-10 classes are: Airplane, Automobile, Bird, Cat, Deer, Dog, Frog, Horse, Ship, Truck")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
