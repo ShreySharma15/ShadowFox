@@ -3,6 +3,7 @@
 ShadowFox is a deep learning project built using **TensorFlow** and **Streamlit**, designed to classify images from the **CIFAR-10 dataset** into one of 10 categories such as airplanes, cars, birds, cats, and more.  
 
 This project demonstrates training a **Convolutional Neural Network (CNN)** and deploying it as a **web app** using Streamlit.
+
 Link: https://shadowfox-image-classifier.streamlit.app/
 
 ---
