@@ -86,31 +86,22 @@ The project is deployed using Streamlit Cloud.
 ---
 
 ## 📦 Requirements
-nginx
-
-streamlit
-
-tensorflow
-
-numpy
-
-matplotlib
-
-scikit-learn
+-nginx
+-streamlit
+-tensorflow
+-numpy
+-matplotlib
+-scikit-learn
 
 (These are listed in requirements.txt)
 
 ---
 
 ## 📊 Results
-Metric	Accuracy
-
-Training Accuracy	~72%
-
-Validation Accuracy	~75%
-
-Test Accuracy	~73%
-
+-Metric	Accuracy
+-Training Accuracy	~72%
+-Validation Accuracy	~75%
+-Test Accuracy	~73%
 
 ---
 
