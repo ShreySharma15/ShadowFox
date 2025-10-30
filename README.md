@@ -45,17 +45,11 @@ Trained using **Adam optimizer** and **categorical cross-entropy loss**.
 ShadowFox/
 
 │
-
 ├── app.py # Streamlit app file
-
 ├── model.h5 # Trained CNN model
-
 ├── requirements.txt # Dependencies for deployment
-
 ├── cifar10_classify.ipynb # Jupyter Notebook for training
-
 ├── README.md # Project documentation
-
 └── sample_images/ # Example images (optional)
 
 
