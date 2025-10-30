@@ -87,30 +87,45 @@ The project is deployed using Streamlit Cloud.
 
 ## 📦 Requirements
 nginx
-Copy code
+
 streamlit
+
 tensorflow
+
 numpy
+
 matplotlib
+
 scikit-learn
+
 (These are listed in requirements.txt)
 
 ---
 
 ## 📊 Results
 Metric	Accuracy
+
 Training Accuracy	~72%
+
 Validation Accuracy	~75%
+
 Test Accuracy	~73%
+
 
 ---
 
 ## 👨‍💻 Author
 Shrey Sharma
+
+
 📍 SRM University, KTR Campus
+
 🧠 AI/ML Enthusiast | Developer | Innovator
 
+
 GitHub: @ShreySharma15
+
+---
 
 ## 🧾 License
 This project is licensed under the MIT License – feel free to use and modify it for your own work.
