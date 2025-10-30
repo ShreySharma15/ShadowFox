@@ -5,7 +5,7 @@ ShadowFox is a deep learning project built using **TensorFlow** and **Streamlit*
 This project demonstrates training a **Convolutional Neural Network (CNN)** and deploying it as a **web app** using Streamlit.
 
 You can access the live demo here:
- 👉([ShadowFox Web App](https://shadowfox-image-classifier.streamlit.app/))
+ 👉 [ShadowFox Web App](https://shadowfox-image-classifier.streamlit.app/) 
 
 ## 🚀 Features
 
