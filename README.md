@@ -43,35 +43,44 @@ Trained using **Adam optimizer** and **categorical cross-entropy loss**.
 ## 📁 Project Structure
 
 ShadowFox/
+
 │
+
 ├── app.py # Streamlit app file
+
 ├── model.h5 # Trained CNN model
+
 ├── requirements.txt # Dependencies for deployment
+
 ├── cifar10_classify.ipynb # Jupyter Notebook for training
+
 ├── README.md # Project documentation
+
 └── sample_images/ # Example images (optional)
 
-yaml
-Copy code
 
----
+
 
 ## ⚙️ Installation & Setup (Run Locally)
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/ShreySharma15/ShadowFox.git
-   cd ShadowFox
+   cd ShadowFox```
+   
 Install the dependencies:
 
-bash
-Copy code
+```bash
 pip install -r requirements.txt
+```
+
 Run the Streamlit app:
 
-bash
+```bash
 Copy code
 streamlit run app.py
+```
+
 Open your browser and go to:
 
 arduino
